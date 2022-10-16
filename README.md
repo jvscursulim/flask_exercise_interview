@@ -21,7 +21,7 @@ Nork-Town is a weird place. Crows cawk the misty morning while old men squint. I
 ```bash
 git clone https://github.com/jvscursulim/flask_exercise_job_application
 ```
-2. 
+2. Accessing the folder with `docker-compose.yml` file
 ```bash
 cd flask_exercise_job_application
 ```
@@ -37,7 +37,7 @@ docker-compose up
 ```bash
 git clone https://github.com/jvscursulim/flask_exercise_job_application
 ```
-2. 
+2. Accessing project folder
 ```bash
 cd flask_exercise_job_application/flask
 ```
@@ -80,7 +80,7 @@ python run.py
 ```bash
 git clone https://github.com/jvscursulim/flask_exercise_job_application
 ```
-2. 
+2. Accessing project folder
 ```bash
 cd flask_exercise_job_application/flask
 ```
