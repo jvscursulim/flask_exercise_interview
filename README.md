@@ -15,21 +15,105 @@ Nork-Town is a weird place. Crows cawk the misty morning while old men squint. I
 
 ## How to run
 
-1. 
+### Docker
+
+1. Clonning GitHub repository
 ```bash
-git clone
+git clone https://github.com/jvscursulim/flask_exercise_job_application
 ```
 2. 
 ```bash
-cd 
+cd flask_exercise_job_application
 ```
-3.
+3. Docker command
 ```bash
 docker-compose up
 ```
+4. To access the web application you need to go to your web browser and write: `localhost:4242` and press enter.
 
+### Local
 
+1. Clonning GitHub repository
+```bash
+git clone https://github.com/jvscursulim/flask_exercise_job_application
+```
+2. 
+```bash
+cd flask_exercise_job_application/flask
+```
 
+3. Creating a virtual environment
+```bash
+python -m venv env
+```
+
+4. Activating the virtual environment
+* Linux
+```bash
+source env/bin/activate
+```
+* Windows
+```bash
+env/Scripts/Acitave.ps1
+```
+
+5. Installing pipenv
+```bash
+pip install pipenv
+```
+
+6. Installing packages with pipenv
+```bash
+pipenv install
+```
+
+7. Running the web app
+```bash
+python run.py
+```
+
+8. To access the web application you need to go to your web browser and write: `localhost:4242` and press enter.
+
+### Tests
+
+1. Clonning GitHub repository
+```bash
+git clone https://github.com/jvscursulim/flask_exercise_job_application
+```
+2. 
+```bash
+cd flask_exercise_job_application/flask
+```
+
+3. Creating a virtual environment
+```bash
+python -m venv env
+```
+
+4. Activating the virtual environment
+* Linux
+```bash
+source env/bin/activate
+```
+* Windows
+```bash
+env/Scripts/Acitave.ps1
+```
+
+5. Installing pipenv
+```bash
+pip install pipenv
+```
+
+6. Installing packages with pipenv
+```bash
+pipenv install
+```
+
+7. Run nox
+```bash
+nox
+```
 
 ## References:
 
