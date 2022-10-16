@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(81, 168, 255);
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    color: antiquewhite;
+    text-align: left;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: antiquewhite;
+    text-align: left;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: antiquewhite;
+    text-align: left;
+}
+
+.button {
+    background-color: antiquewhite;
+    font-size: 24px;
+}
+

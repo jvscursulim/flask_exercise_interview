@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h2>Customer Registration</h2>
+        <button class="button">
+            <a href="{{ url_for('main.index') }}">Home</a>
+        </button>
+        <button class="button">
+            <a href="{{ url_for('main.car_registration') }}">Car Registration</a>
+        </button>
+        <button class="button">
+            <a href="{{ url_for('auth.logout') }}">Log Out</a>
+        </button>
+        <hr>
+        <form method="POST" action="/customer_registration">
+            {{ form.csrf_token }}
+            {{ form.name.label }} {{ form.name() }}
+            {{ form.submit() }}
+        </form>
+        <div>
+            <h3>{{ message }}</h3>
+        </div>
+    </body>
+</html>

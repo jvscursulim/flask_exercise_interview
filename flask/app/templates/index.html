@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div>
+            <h1>Carford</h1>
+            <button class="button">
+                <a href="{{ url_for('main.customer_registration') }}">
+                    Customer Registration
+                </a>
+            </button>
+            <button class="button">
+                <a href="{{ url_for('main.car_registration') }}">
+                    Car Registration
+                </a>
+            </button>
+        </div>
+    </body>
+</html>
